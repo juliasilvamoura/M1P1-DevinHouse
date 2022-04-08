@@ -36,6 +36,7 @@ main{
 /*SEção da inserção de valores*/
 .inserindo-valores-lista{
     background-color: rgb(201, 146, 218);
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     padding: 3%;
@@ -118,6 +119,7 @@ img{
 /* seção do valor total da compra*/
 .secaoImpressaoResultados{
     background-color: rgb(201, 146, 218);
+    border-radius: 20px;
     padding: 3%;
     width: 25%;
     height: auto;
