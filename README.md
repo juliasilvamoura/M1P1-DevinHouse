@@ -20,6 +20,12 @@ O projeto Front-End desenvolvido durante o Módulo 1, consiste em uma aplicaçã
   <li><i>Salva lista no "localStorage" do navegador e carregar a mesma sempre que a página for reaberta.</i> </li>
 </ul>
 
+# Funcionalidade extra:
+
+<ul>
+  <li><i>Permite renomear um produto da lista</i> </li>
+</ul>
+
 # Tecnologias utilizadas:
 <p align="center">
 <img width="70px" height="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" /> 
