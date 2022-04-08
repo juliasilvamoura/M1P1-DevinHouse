@@ -35,7 +35,7 @@ O projeto Front-End desenvolvido durante o Módulo 1, consiste em uma aplicaçã
 
 # Desenvolvedora:
 
-Meu nome é Julia, futura Engenheira de Computação, formada pelo instituto Federal São Paulo - câmpus Birigui. Atualmente desenvolvedora Full-Stack, além disso tenho conhecimentos em: Banco de Dados, Python, Java, Javascript, HTML, CSS, Linux, Latex, Elétrica, Eletrônica, Hardware, Redes e Gerenciamento de projetos.
+Meu nome é Julia, futura Engenheira de Computação, formada pelo Instituto Federal São Paulo - câmpus Birigui. Atualmente desenvolvedora Full-Stack, além disso tenho conhecimentos em: Banco de Dados, Python, Java, Javascript, HTML, CSS, Linux, Latex, Elétrica, Eletrônica, Hardware, Redes e Gerenciamento de projetos.
 
 # Redes Sociais:
 
