@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+
+    <title>Controle de Compras</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/sacolas-de-compras.png">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header id="cabecalho">Controle de Compras</header>
+    <main>
+        
+        <!-- Seção de inserção dos valores -->
+        <section class="inserindo-valores-lista">
+
+            <!-- Div para receber o nome do produto e o botão de adicionar -->
+            <div class="inserindo-valores">
+                <!--<div class="entrada-valor"> -->
+                    <label id="label1">Insira um item na lista:</label>
+                    <input id="produto" type="text" placeholder="Ex.: Macarrão">
+                <!--</div> -->
+                <button id="add-item">Adicionar</button>
+            </div>
+
+            <!-- Div para a Lista -->
+            <div class="lista-compras">
+                <label id="label2">Lista de compras:</label>
+                <div class="lista">
+                    <ul id="listaProduto">
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Botão de Limpar e limpar lista de comprados -->
+            <div class="btn-limpar">
+                <button id="clearList">Limpar lista</button>
+                <button id="clear-check">Removar produtos comprados</button>
+            </div>
+
+        </section>
+
+        <!-- Seção de imprimir o valor das compras-->
+        <section class="secaoImpressaoResultados">
+            <div class="secaoImpressaoResultados_valor">
+                <h3>Total das Compras:</h3>
+                <p>R$ </p>
+            </div>
+        </section>
+
+    </main>
+
+    
+    <!-- Rodapé com redes sociais e nome da desenvolvedora-->
+    <footer class="footer">
+        <p> Julia Moura - Engenheira de Computação </p>
+        <div class="icones-redesSociais">
+            <a href="https://www.linkedin.com/in/julia-m-9abba9110/" target="_blank"><img class="rs" src="./img/linkedin.png" alt="linkedin"></a>
+            <a href="https://github.com/juliasilvamoura" target="_blank"><img class="rs" src="./img/github.png" alt="github"></a>
+            <a href="https://www.instagram.com/julia.moura.eng/" target="_blank"><img class="rs" src="./img/instagram.png" alt="instagram"></a>
+        </div>
+        
+    </footer>
+
+
+    <!-- Adiciona o script-->
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
