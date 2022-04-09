@@ -174,17 +174,22 @@ function removerItem(id) {
 // Editar Item
 function editarItem(id,novoProduto){
     // faz um forEach para encontrar na condição do if qual é o id
-    lista.forEach(function (item){
-        if(item.id == id){
-            // o produto recebe um novo nome
-            item.name = novoProduto;
-        }
-    })
-    //chamar a função atualizarInterface
-    atualizarInterface();
-
-    //chamar a função saveStorage
-    saveStorage();
+    if(novoProduto){
+        lista.forEach(function (item){
+            if(item.id == id){
+                // o produto recebe um novo nome
+                item.name = novoProduto;
+            }
+        })
+        //chamar a função atualizarInterface
+        atualizarInterface();
+    
+        //chamar a função saveStorage
+        saveStorage();
+    } else {
+        alert('Produto sem nome!');
+    }
+    
 }
 
 // Recomer produto comprado
